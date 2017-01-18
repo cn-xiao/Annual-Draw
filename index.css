@@ -1,0 +1,75 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+/*#library{display: none;}*/
+
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑"
+}
+
+#library {
+    position: relative;
+    overflow: hidden;
+}
+
+#library {
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#library ul {
+    overflow: hidden;
+    position: relative;
+    transition: right .3s;
+}
+
+#library li {
+    float: left;
+    list-style-type: none;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+#library img {
+    width: 600px;
+}
+
+.ctrl {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.ctrl button {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+#winner li{list-style: none;}

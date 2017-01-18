@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>抽奖系统</title>
+</head>
+<body>
+    <div id="library" class="pointer"></div>
+    <div class="ctrl">
+        <button id="start" onclick="start();">开始</button>
+        <button id="order" onclick="randomArray();">打乱</button>
+        <button id="stop" onclick="stop();" disabled>结束</button>
+        <p>获奖者列表</p>
+        <ul id="winner"></ul>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
